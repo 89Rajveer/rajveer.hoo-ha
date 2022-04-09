@@ -1,0 +1,513 @@
+@media (max-width: 1199px) {
+
+    .hero {
+        background-position: calc(100% + 120px) bottom;
+        padding: 70px 0px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+     .order-item h4 {
+        font-size: 19px;
+        margin: 20px 0px 15px;
+    }
+
+    .features{
+        padding: 50px 0;
+    }
+
+    .image-card {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .outlet h5 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+
+    .outlet p {
+        font-size: 10px;
+        font-weight: 300;
+        display: flex;
+        align-items: start;
+        margin-top: 5px;
+    }
+
+    .outlet p img {
+        width: 13px;
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(107%) contrast(101%);
+    }
+
+    .navigation-items li a {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .food-deal-image {
+        position: unset;
+    }
+
+    .left-sidebar {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    .food-filter a {
+        padding: 0px 15px;
+        font-size: 14px;
+    }
+
+    .left-sidebar ul li a {
+        font-size: 16px;
+    }
+
+    .green-btn {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .hero {
+        background-position: calc(100% + 80px) bottom;
+        padding: 100px 0;
+    }
+    .account{margin-bottom: 60px;}
+    .order-item {
+        text-align: center;
+    }
+    .search-box{
+        
+    margin: 80px 0 70px;
+    }
+    .order-item img {
+        height: 110px;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+    }
+
+    .heading p{
+        font-size: 17px;
+    }
+
+    .order-item p {
+        font-size: 14px;
+    }
+
+    .search-box input{
+        padding: 13px 15px;
+        height: auto;
+        font-size: 16px;
+    }
+
+    .features {
+        padding: 110px 0px;
+    }
+
+    .order-item img {
+        height: 80px;
+    }
+
+    .order-item h4 {
+        margin: 15px 0px 10px;
+        font-size: 17px;
+    }
+
+    .logo img {
+        width: 85px;
+    }
+
+    .navigation-bar {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .header .navbar {
+        padding: 1.5rem 15px;
+    }
+    .container-fluid {
+        padding: 0px 15px;
+    }
+    .offers .container-fluid {
+        padding: 0px 15px;
+    }
+    /*.outlet {
+
+        margin: 12px 0px 0px 0px;
+
+        background-color: #4d4d4d;
+
+        padding: 10px 15px;
+
+        border-radius: 5px;
+
+    }*/
+
+    .outlet h5 {
+        font-size: 10px;
+        color: #898989;
+        font-weight: 500;
+    }
+
+
+
+    .outlet p {
+
+        font-size: 10px;
+
+        font-weight: 300;
+
+        display: inline;
+
+        align-items: start;
+
+        margin-top: 5px;
+
+        color: #212529;
+
+    }
+
+
+
+    .outlet p img {
+
+        width: 13px;
+
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(107%) contrast(101%);
+
+    }
+
+
+
+    .navigation-items {
+
+        padding-top: 10px;
+
+    }
+
+
+
+    .navigation-items li a {
+
+        margin-right: 0px;
+
+    }
+
+
+
+    .offers {
+
+        padding: 25px 0px;
+
+    }
+
+
+
+    .offer-head {
+
+        margin-bottom: 25px;
+
+    }
+
+
+
+    .food-image {
+
+        height: 238px;
+
+    }
+
+
+
+    .search-popup .search-input input {
+
+        height: 45px;
+
+        margin-top: -130px;
+
+    }
+
+
+
+    .left-sidebar ul {
+
+        margin-top: 15px;
+
+        flex-wrap: wrap;
+
+        flex-direction: row !important;
+
+        margin-bottom: 30px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .hero{
+        background-image: none;
+        padding: 20px 0;
+    }
+    .account {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .location {
+        text-align: center;
+    }
+    #searchTextField {
+        text-align: center;
+    }
+    .features {
+        padding: 35px 0px;
+    }
+    .search-box {
+        margin: 10px 0 10px;
+    }
+    .food-plate{
+        margin: 25px 0 0;
+    }
+    .hero > img {
+    	width: 100%;
+    }
+    .account img {
+        width: 100px;
+    }
+    
+    .has-business-top-section {
+      position: relative;
+      right: 0px;
+      background: #fff;
+      padding: 7px 0;
+      text-align: center;
+    }
+    
+    .features .row .col-md-4:nth-child(2){
+        margin: 35px 0;
+    }
+
+    .food-image {
+        height: 175px;
+    }
+
+    .food-deal-description h1 {
+        font-size: 28px;
+    }
+
+    .food-deal-description h4 {
+        font-size: 16px;
+    }
+
+    .food-deal-description p {
+        font-size: 12px;
+    }
+
+    .food-deal-description ul {
+        margin-top: 18px;
+    }
+
+    .food-deal-description ul li span {
+        margin-right: 15px;
+        width: 95px;
+        font-size: 11px;
+        padding: 1px 0px;
+    }
+
+    .food-deal-description ul li p {
+        font-size: 10px;
+    }
+
+    .left-sidebar ul li a {
+        font-size: 13px;
+    }
+
+    .search-dishes input {
+        height: 38px;
+        background-size: 14px;
+        font-size: 13px;
+    }
+
+    .food-filter a {
+        height: 38px;
+        font-size: 11px;
+    }
+
+    .food-filter a img {
+        height: 20px;
+    }
+
+    .recommended-head p {
+        font-size: 13px;
+    }
+
+    .dish-image {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .dish-cost p {
+        font-size: 12px;
+    }
+
+    .add-cart {
+        justify-content: start;
+        margin-top: 12px;
+    }
+
+    .green-btn {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .account {
+        display: flow-root;
+    }
+    .location {
+        text-align: center;
+    }
+   .account img {
+        width: 90px;
+    }
+    #searchTextField {
+        text-align: center;
+    }
+    .heading h1 {
+        font-size: 32px;
+    }
+    .heading p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .search-box .input-group {
+        flex-direction: column;
+    }
+
+    .search-box input {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .search-box .input-group-append {
+        justify-content: center;
+    }
+
+    .search-box button {
+        padding: 11px 30px;
+        font-size: 15px;
+    }
+
+    .popular-city p {
+        font-size: 14px;
+    }
+
+    .search-box .input-group {
+        margin: 15px 0px 35px;
+    }
+
+    .deals {
+        padding: 30px 20px;
+    }
+
+    .image-card {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .food {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .food-image {
+        height: 152px;
+    }
+
+    .food-name a {
+        font-size: 13px;
+    }
+
+    .food-name img {
+        margin-right: 9px;
+        width: 16px !important;
+    }
+
+    .food-type select,
+    .food-text span.flat-discount {
+        font-size: 11px;
+    }
+
+    .food-cost ul span {
+        font-size: 10px;
+    }
+
+    .product-banner {
+        padding: 30px 20px;
+    }
+
+    .food-deal-image {
+        max-width: 240px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .food-deal-description ul li span {
+        margin-right: 12px;
+        width: 79px;
+    }
+
+    .food-deal-description ul li span img {
+        height: 14px;
+    }
+
+    .food-filter {
+        justify-content: center;
+    }
+
+    .dish-name span {
+        font-size: 14px;
+    }
+
+    .green-btn {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 449px) {  
+    .food-image {
+        height: 206px;
+    }
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1600px)  {
+    .rating {
+        padding: 5px 7px;
+    }
+    .dish-cost img {
+        width: 10px !important;
+    }
+    .food-cost ul span {
+        font-size: 10px;
+    }
+    .food-text {
+        padding: 10px;
+    }
+}
